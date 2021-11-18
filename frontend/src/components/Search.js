@@ -10,7 +10,6 @@ const Search = ({searchName, changeSearch, submitSearch}) => {
                         <InputLeftElement pointerEvents='none' children={<SearchIcon />}/>
                         <Input value={searchName} placeholder='Summoner Name' onChange={changeSearch} backgroundColor='white'/>
                     </InputGroup>
-
                     <Button type='submit' colorScheme='blue'>Search</Button>
                 </Flex>
             </FormControl>

@@ -56,7 +56,7 @@ const App = () => {
      */
 
     return (
-        <Flex direction='column' align='center' height='100vh' backgroundColor={getBackgroundColor()}>
+        <Flex direction='column' align='center' height='100vh' backgroundColor={getBackgroundColor()} transition='0.5s linear'>
             <Header />
             <Search searchName={searchName} changeSearch={changeSearch} submitSearch={submitSearch}/>
             <Data data={rankedData} />
